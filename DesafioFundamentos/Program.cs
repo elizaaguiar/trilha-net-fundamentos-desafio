@@ -18,6 +18,7 @@ Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
 
 string opcao = string.Empty;
 bool exibirMenu = true;
+// string placa = Console.ReadLine();
 
 // Realiza o loop do menu
 while (exibirMenu)
@@ -33,6 +34,7 @@ while (exibirMenu)
     {
         case "1":
             es.AdicionarVeiculo();
+            
             break;
 
         case "2":
